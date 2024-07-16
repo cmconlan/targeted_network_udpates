@@ -65,3 +65,7 @@ Limitations: the method doesn't account for useful trip e.g., do the changes act
 * Mahfouz, Hussein, Robin Lovelace, and Elsa Arcaute. "A road segment prioritization approach for cycling infrastructure." Journal of transport geography 113 (2023): 103715.
 * Paulsen, Mads, and Jeppe Rich. "Societally optimal expansion of bicycle networks." Transportation research part B: methodological 174 (2023): 102778.
 * Vybornova, Anastassia, et al. "Automated detection of missing links in bicycle networks." Geographical Analysis 55.2 (2023): 239-267.
+
+Relevant Github Repos:
+* https://github.com/madspDTU/OptimalBicycleExpansion (related to Paulsen et al paper)
+
