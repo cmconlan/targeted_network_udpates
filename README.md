@@ -38,6 +38,7 @@ However, the crux of the problem is identifying the specific edges which are res
 ### Possible approaches
 
 Optimisation problem - minimise "trade off rate" (ToR) at the network level within a given budget constraint
+(Alternative suggestion : maximise weigted LTS centrality)
 
 Can we develop a simple heuristic to solve this problem? As a quick suggestion:
 - Make update to network
