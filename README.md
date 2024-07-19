@@ -48,7 +48,7 @@ Can we develop a simple heuristic to solve this problem? As a quick suggestion:
 
 ### Proposed Technical Approaches
 
-Genetric algorithm:
+#### Genetric algorithm:
 - Generate sparsified representation of network
   - E.g. OA to OA with links representing shortest path on LTS 1,2,3,4 edges
 - Genes link-level LTS penalty e.g., penalty for moving from LTS4 -> 3, 3 -> 2 etc
@@ -59,6 +59,13 @@ Still to solve: the algorithm will probably eventually converge on all links hav
 Such an algorithm will suggest which connections in the network to modidy to improve network-wide bikeability, in other words ensuring that the network can provide safe routes for a diverse set of potential users.
 
 Limitations: the method doesn't account for useful trip e.g., do the changes actually enable connectivity to useful places? The method doesn't account for demand.
+
+#### Reinforcement Learning:
+- Define environment as road network with safety features
+- State: cycle flow through network, exposure to risk, circuity
+- Agent adjusts LTS levels on each road
+- Reward function: average exposure to risk, average circuity, mean ToR, LTS centrality etc
+
 
 ### Resources
 
